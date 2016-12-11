@@ -1,183 +1,266 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html class="no-js" lang="">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Dilan Ustek</title>
-				
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/style-responsive.css" />				
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- html -->
+    <link rel="import" href="footer.html">
+
+
+    <!-- Scripts -->
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
 
 </head>
 
 <body>
 
-
-<div class="preloader" id="preloader">
-    <div class="item">
-      <img src="img/loading.gif">
-    </div>
-</div>
-
-
 <div class="container">
 
-
-  <!-- section menu mobile -->
-  
-  <section class="menu-media">
-  
-    <div class="menu-content">
-
-      <div class="icon"><a href="#"><img src="img/icons/menu-media.png"/></a></div>
-    
-    </div>
-   
-  </section>
-  
-    <ul class="menu-click">
-        <a href="index.html"><li href="index.html">HOME</li></a>
-        <a href="#about-us"><li href="#about-us">ABOUT ME</li></a>
-        <a href="#portfolio"><li href="#portfolio">PORTFOLIO</li></a>
-        <a href="#contact"><li href="#contact">CONTACT</li></a>
-        
-    </ul>
-   
-   
-  <!-- section menu -->
-
-    <section class="menu">
-
-        <div class="menu-content">
-
-            <ul id="menu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#about-us">ABOUT ME</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </div>
-
-
-    </section>
-
-
-    <!-- section about us -->
-  
-  <section class="about-us" id="about-us">
-  
-  <div class="content">
-  
-    <h1>Redesigning Yelp</h1>
-    <hr/>
-    <p class="title" style="color:black;" >How would our restaurant searching experience change if we had a feed of reviews Instagram and Facebook style? </p>
-
-    My team and I redesigned the Yelp experience to have a social media perspective. We added a feed that revolved around reviews of restaurants.
-    
-    <h2> The process we used: </h2>
-
-    <br> <br>      <br> <br>      <br> <br>
-
-<section class="about-us" id="about-us">
-    <h4> Step 1: Task Examples and Requirements </h4>
-
-    <br>
-                <img src="img/portfolio/task.JPG"  width="50%" height="50%"/>
-                <img src="img/portfolio/req.JPG" width="40%" height="50%" />
-    <br>
-
+  <section class="me-page" id="me-page">
+      <div class="main">
+          <div class="me-text">
+            <div class="center-text">
+                <div class="project-main">
+                    <h1>Redesigning Yelp</h1>
+                    <hr/>
+                    <p class="title" style="color:black;" >How would our restaurant searching experience change
+                        if we had a feed of reviews Instagram or Facebook style? </p>
+                </div>
+            </div>
+          </div>
+      </div>
   </section>
 
-    <br> <br> <br>    <br> <br> 
+
+    <section class="project-details" id="project-details">
+        <div class="me-content">
+            <div class="project-step">
+
+                <h2>Problem</h2>
+                <p>
+                Create a Yelp interface to improve the experience of reading reviews to search for restaurants.</p>
+
+                <hr>
+
+                <h2>Insights</h2>
+                <p>Our team's previous study showed that users found reviews to be an important criteria while deciding on a restaurant.
+                However, users could not rely on just anybody's reviews. The trustworthiness and quality of reviews would be an important
+                factor in improving their Yelp experience.</p>
+
+                <h2>Solution</h2>
+                <p>We redesigned the Yelp experience from a social media perspective: we added a feed that revolved around reviews of restaurants.
+                This way, users could see where their friends have reviewed, and scroll through a feed of top reviewers on Yelp.
+                Quality of reviews would be determined by user rating.</p>
+
+                <h2> Challenges </h2>
+                <p> Our main challenge was the confusion caused by the fact that you can review restaurants,
+                    as well as review a user review of a restaurant. You can see how this can get confusing! </p>
+
+                <h2>Evaluation Goals</h2>
+                <p>
+                    1- How easily did users acquire the intended <b>mental model?</b> <br>
+                    2- What difficulties did the user face when using the new <b>filtering</b> features?<br>
+                    3- What interactions in the interface failed to provide the user with an appropriate level of <b>feedback and visibility</b>?
+                </p>
+
+            </div>
+
+            <hr>
+
+            <h2>Process</h2>
+
+            <div class="project-step">
+                <h3> Step 1: Task Examples and Requirements </h3>
+
+                <p>
+                The first step was the create <b>personas</b>, then put them in scenarios that would show us how a person
+                would use this product. We then wrote some <b>task examples</b> that would build a full portrait of the user
+                but did not point to any specific solution. <b>Requirement documentation</b> also helped us determine scope
+                for the project.</p>
+
+            </div>
+
+            <div class="project-step">
+                <h3> Step 2: Low-fidelity Paper Prototype </h3>
+
+                <p> The next step was to make some <b>low-fidelity prototypes</b>.
+                    Because this is a very early stage, paper prototypes were the best option to create multiple versions
+                very quickly. First, we made some sketches on paper. Then we made some "interactive" paper prototypes with which
+                we could run <b>cognitive walkthroughs</b> with some users.</p>
 
 
-    <h4> Step 2: Low-fi Paper Prototype </h4>
+                <div class="project-photos">
+                    <img src="img/portfolio/sketch.JPG"  width="50%" height="50%"/>
+                    <img src="img/portfolio/lowfi.JPG" width="40%" height="50%" />
+                </div>
 
-<br> <br>
-                <img src="img/portfolio/sketch.JPG"  width="50%" height="50%"/>
-                <img src="img/portfolio/lowfi.JPG" width="40%" height="50%" />
+            </div>
 
-  
-  
-  <br> <br> <br> 
+            <div class="project-step">
+                <h3> Step 3: Cognitive Walkthroughs </h3>
 
+                <p>
+                   Cognitive walkthroughs proved its importance in the project. Some elements that seemed to be very intuitive
+                    at first were confusing for a number of people. Mainly, users were confused about reviews for
+                    restaurants vs. reviews of reviews. Another point that was interesting was that a dyslexic user
+                    mentioned that they did not understand the different tabs of top reviews, friends, and others at first glance.
+                    These gave us important insights into how the user's mental model of our product would be and helped us
+                    iterate for the next step of the design.
+                </p>
 
-  <h4> Step 3: Cognitive Walkthroughs </h4>
-
-  <br> <br>
-
-
-  <h4> Step 4: Evaluate to make Medium Fidelity Prototype <h4>
-
-        <br>
-                <img src="img/portfolio/medfi.JPG"  width="80%" height="80%"/>
-        <br>
-      
-  <br> <br>
-
-  
-  <h4> Step 5: Usability Studies <h4>
-
-        <br> <br>
-                <img src="img/portfolio/affinity.JPG"  width="80%" height="80%"/>
-        <br>
-      
-  <br> <br> <br>  
+            </div>
 
 
-    <h4> Step 6: Med-fi Usability Report <h4>
+            <div class="project-step">
+                <h3> Step 4: Medium Fidelity Prototype <h4>
 
-        <br>
-                <img src="img/portfolio/paper1.JPG"  width="47%" height="50%"/>
-                <img src="img/portfolio/paper2.JPG"  width="44%" height="50%"/>
+                    <p>
+                    Iterating from the previous step, we made our <b>medium fidelity prototype</b> using
+                        <a href="https://www.justinmind.com/">Justinmind</a>,
+                    an interactive prototyping tool.
+                        As the goal of our evaluation was more focused on the <b>user’s workflow</b> through various tasks,
+                        the prototype had to be designed in a way that implemented enough functionality so that the user
+                        could get a realistic sense of all the main features that were available in the interface.
 
-        <br>
+                       (Is the next sentence needed?) It is important to note that the purpose of this prototype
+                        was to test out a specific interaction and
+                        that the interface is not fully implemented and the UI does not need to look beautiful in this stage.
+
+                        A <a href="http://www.cs.ubc.ca/~ustekd/yelp/">demo can be found here</a>.
+                    </p>
+
+                    <div class="project-photos">
+                        <img src="img/portfolio/medfi.JPG"  width="80%" height="80%"/>
+                    </div>
+
+            </div>
 
 
-  </div>
+
+            <div class="project-step">
+                <h3> Step 5: Usability Studies <h4>
+
+                    <p>
+
+                       The medium fidelity prototype needed to be evaluated to determine whether the user was
+                        able to <b>acquire the correct mental model of the system</b> without any confusion.
+                     </p><p>
+                        We performed an <b>interview-like think-aloud observation</b> as the main evaluation method as it
+                        allowed users to express their thoughts while the questions forced them to further elaborate on
+                        anything they found interesting or confusing.
+                      </p><p>
+                        We then gather data with a <b>follow-up questionnaire</b> because users were more likely to express
+                        their honest opinions when filling out a questionnaire alone as opposed to
+                        an interview.
+                       </p><p>
+                        There was also a final <b>follow-up interview</b> in order to allow the user to express any final
+                        thoughts that may have been missed in the observation or the questionnaire.
+                       </p><p>
+                        Triangulating with the above evaluation methods, we were able to collect both <b>qualitative and quantitative</b>
+                        data which allowed for more thorough analysis in the end.
+
+                        </p>
+
+                    <div class="project-photos">
+                        <img src="img/portfolio/affinity.JPG"  width="80%" height="80%"/>
+                    </div>
+
+            </div>
+
+
+
+            <div class="project-step">
+                <h3> Step 6: Medium Fidelity Usability Report <h4>
+
+                    <p> From the usability study, we made the above <b>affinity diagram</b> to find patterns among qualitative
+                        data. From the questionnaires, we generated the graph below. </p>
+
+                    <div class="project-photos">
+                        <img src="img/portfolio/likert.png"  width="70%" height="70%"/>
+                    </div>
+
+                    <p>
+                        This study showed that the design of the interface has many strengths,
+                        but some deficiencies that need to be addressed exist.
+                        Specifically, changes need to be made to the current design to eliminate transfer effects and
+                        allow users to acquire this mental model more easily.
+                        Overall, the study proved that the interface has the potential to be a useful tool for browsing
+                        and reading reviews if some minor changes were made that address the problems that were found
+                        during the user study.
+                        </p>
+                    <p>
+                        OR THIS paragraph? OR can choose some of both <br>
+
+                        The user studies proved that the overall design shows potential to be an effective tool that
+                        users would prefer to use to search for restaurants. However, minor adjustments undoubtedly
+                        need to be made to fix the issues discovered. Primarily, the user studies showed that due to
+                        transfer effects, users had difficulty developing the current mental model of the system.
+                        By changing the layout or shape of the review to emphasize that it is a review might help the
+                        user in better understanding the system.
+
+                    </p>
+
+            </div>
+
+
+            <hr>
+
+            <div class="project-step" style="margin-bottom: 40px;">
+
+                <h2 style="margin-top:0px;"> Lessons Learned </h2>
+                <p>
+                    1- Developing solid evaluation goals early on is essential, as they are the foundation of the design study.
+                    <br>
+                    2- Iterating and reiterating the steps of the process is necessary, as each iteration leads to better
+                    results and overall improvement.
+                </p>
+
+            </div>
+
 
 
   </section>
-  
-  <div class="clear"></div>
 
-    <div w3-include-html="selectionsbelow.html"></div>
-  
-   <div class="clear"></div>
 
-    <div w3-include-html="contact.html"></div>
-
-    <div w3-include-html="footer.html"></div>
-
-    
 
 </div>
 
 
 
-	<!-- Scripts -->
-	
-	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-	<script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script> <!-- jQuery -->
-	<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
-	<script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
-	<script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
-	<script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->
-	<script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax -->	
-	<script src="js/script.js"></script> <!-- All script -->
+<!--scripts -->
 
-    <script>
-    w3IncludeHTML();
-    </script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
 
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script> <!-- jQuery -->
+<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
+<script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
+<script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
+<script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->
+<script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax -->
+<script src="js/script.js"></script> <!-- All script -->
 </body>
 
 </html>

@@ -126,7 +126,7 @@ h1 span{
 
 
 .me-page .main .center-text{
-
+    width: 100%;
 }
 
 .me-page .main .photo{
@@ -206,66 +206,6 @@ h1 span{
     0%   { opacity: 0; bottom: 70px; }
     100% { opacity: 1; bottom: 35px; }
 }
-
-
-/* Menu mobile */
-
-.menu-media{
-  position:relative;
-  width:100%;
-  height:90px;
-  background:#a75557;
-  z-index:1000;
-  display:none;
-}
-
-.menu-media .menu-content{
-  width:280px;
-  margin:0 auto;
-}
-
-.menu-media .menu-content .logo {
-   color:white;
-   font-weight:700;
-   font-size:24px;
-   width:200px;
-   line-height:90px;
-   float:left;
-   list-style: none;
-}
-
-.menu-media .menu-content .icon{
-  width:41px;
-  height:23px;
-  float:right;
-  line-height:100px;
-}
-
-.menu-click{
-  display:none;
-}
-
-
-.menu-click li {
-  position:relative;
-  width:100%;
-  height:70px;
-  color:#333333;
-  font-size:18px;
-  text-align:center;
-  line-height:70px;
-  z-index:1000;
-  border-bottom:1px solid #f2f2f2;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
- }
-
-.menu-click li:hover {
-  color:#a75557;
- }
 
 
 
@@ -675,91 +615,6 @@ ul.tab li a:focus, .active {
 }
 
 
-/* Contact */
-
-.contact{
-  position:relative;
-  width:100%;
-  background:white;
-  z-index:10;
-  overflow:hidden;
-  margin-bottom: 100px;
-}
-
-
-.contact .content{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin: 60px auto 65px auto;
-}
-
-.contact h1{
-  font-size:34px;
-  color:black;
-  text-align:center;
-  margin-top:120px;
-  letter-spacing:6px;
-  font-weight:bold;
-  text-transform:uppercase;
-  line-height:1.2;
-}
-
-.contact hr{
-  color: black;
-  margin-top:30px;
-  background-color: black;
-  height: 1px;
-  width:106px;
-  border:0;
-}
-
-.contact .content .form{
-  width:455px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-}
-
-.contact .content .form .column{
-  width:180px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-  margin-bottom:30px;
-}
-
-.contact .content .form .column-2{
-  width:210px;
-  padding-left:60px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-  margin-bottom:30px;
-}
-
-.contact .content .form .column-3{
-  width:450px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-}
-
-.contact .content .contact-text{
-  width:405px;
-  overflow:hidden;
-  height:auto;
-  font-weight:300;
-  float:left;
-  padding-left:40px;
-  color:black;
-  font-size:14px;
-  line-height:26px;
-}
-
 strong{
   font-weight:700;
 
@@ -873,4 +728,104 @@ div.vertical-line{
   float: left; /* Causes the line to float to left of content.
     You can instead use position:absolute or display:inline-block
     if this fits better with your design */
+}
+
+/* Project */
+
+.project-main {
+    margin: auto;
+    width: 80%;
+
+}
+
+
+
+.project-details{
+    position:relative;
+    width:100%;
+    background:white;
+    z-index:10;
+}
+
+.project-details .me-content{
+    position:relative;
+    width:950px;
+    margin: 0 auto;
+}
+
+
+.project-details h1{
+    font-size:34px;
+    color:black;
+    text-align:center;
+    margin-top:60px;
+    letter-spacing:6px;
+    font-weight:bold;
+    text-transform:uppercase;
+    line-height:1.2;
+
+}
+
+.project-details hr{
+    color: black;
+    margin-top:30px;
+    background-color: black;
+    height: 1px;
+    width:950px;
+    border:0;
+
+}
+
+.project-details p.title{
+    color: #a4a4a4;
+    margin:40px auto;
+    width:350px;
+    line-height:30px;
+    letter-spacing:0;
+    font-size:16px;
+    font-weight:300;
+    text-align:center;
+}
+
+
+
+.project-details h2{
+    margin-top:45px;
+    font-size:26px;
+    color:black;
+    line-height:1.2;
+    letter-spacing:6px;
+    width:100%;
+    position:relative;
+    font-weight:400;
+    display: inline-block;
+}
+
+.project-details p{
+    font-size:16px;
+    line-height:26px;
+    letter-spacing:0;
+    position:relative;
+    margin-top: 15px;
+}
+
+
+.project-step {
+    margin-top:40px;
+}
+
+.project-step h2{
+    margin-bottom: 15px;
+}
+
+.project-step h3{
+    margin-bottom: 15px;
+    font-size: 21px;
+    color: #a75557;
+}
+
+.project-photos{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
 }
