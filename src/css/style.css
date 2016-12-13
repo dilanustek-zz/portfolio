@@ -493,13 +493,13 @@ ul.tab li a:focus, .active {
     align-items: center;
 }
 
-.project-block a{
-    width: 200px;
-    flex-shrink: 0;
+.project-block:hover{
+    transform: scale(1.03);
 }
 
 .project-block img{
-    width: 100%;
+    width: 200px;
+    flex-shrink: 0;
 }
 
 .projects{
@@ -535,6 +535,7 @@ ul.tab li a:focus, .active {
   letter-spacing:0.7px;
     margin-left: 20px;
     font-weight: 300;
+    color: black;
 }
 
 .p-title{
