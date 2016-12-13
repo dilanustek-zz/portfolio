@@ -53,6 +53,12 @@ h1 span{
   color:#2fa68e;
 }
 
+figure{
+    margin: 1em 10px;
+    width: 400px;
+    align-self: center;
+}
+
 
 ::selection {
   background: #a75557;
@@ -416,7 +422,7 @@ h1 span{
 /* Hats */
 
 
-.hats p{
+.tabdescription p{
     font-size:15px;
     font-weight:300;
     letter-spacing:0.7px;
@@ -480,66 +486,23 @@ ul.tab li a:focus, .active {
 
 
 
-
-/* Portfolio */
-
-
-.portfolio{
-  position:relative;
-  width:100%;
-  z-index:10;
-
-}
-
-.portfolio .portfolio-margin{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin:0 auto;
-}
-
-
-
-.portfolio .portfolio-margin h1{
-  font-size:34px;
-  color:black;
-  text-align:center;
-  margin-top:120px;
-  letter-spacing:6px;
-  font-weight:bold;
-  text-transform:uppercase;
-  line-height:1.2;
-}
-
-.portfolio .portfolio-margin hr{
-  color: black;
-  margin-top:30px;
-  background-color: black;
-  height: 1px;
-  width:106px;
-  border:0;
-}
-
-
-
-
 /* Portfolio grid */
 
-.grid-block{
+.project-block{
     display: flex;
     align-items: center;
 }
 
-.grid-block a{
+.project-block a{
     width: 200px;
     flex-shrink: 0;
 }
 
-.grid-block img{
+.project-block img{
     width: 100%;
 }
 
-.grid{
+.projects{
   margin-top:60px;
   width:100%;
   position:relative;
@@ -548,34 +511,34 @@ ul.tab li a:focus, .active {
     padding: 0px;
 }
 
-.grid li{
+.projects li{
   margin:0 15px 15px 0;
   position: relative;
   overflow: hidden;
     display: block;
 }
 
-
-.grid .text {
-  position: absolute;
-  background: #a75557;
-  z-index: 2;
-  opacity:0;
-    -webkit-transition: all 0.6s ease-in;
-	-moz-transition: all 0.6s ease-in;
-	-ms-transition: all 0.6s ease-in;
-	-o-transition: all 0.6s ease-in;
-	transition: all 0.6s ease-in;
+.projects .p-title{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    text-align: center;
+    flex-shrink: 0;
+    width: 120px;
 }
 
-
-.grid p {
+.projects p {
     display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   line-height:26px;
-  font-weight: bold;
-  letter-spacing:1px;
+  letter-spacing:0.7px;
     margin-left: 20px;
+    font-weight: 300;
+}
+
+.p-title{
+    font-weight: bold;
 }
 
 
@@ -851,6 +814,8 @@ div.vertical-line{
 .project-photos{
     margin-top: 50px;
     margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
 
 }
 
