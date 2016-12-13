@@ -126,7 +126,6 @@ h1 span{
 
 
 .me-page .main .center-text{
-    width: 100%;
 }
 
 .me-page .main .photo{
@@ -469,7 +468,6 @@ ul.tab li a:focus, .active {
     animation: fadeEffect 1s;
     position: relative;
     width: 840px;
-    height: 450px;
     margin: 0 auto;
 }
 
@@ -532,31 +530,30 @@ ul.tab li a:focus, .active {
 /* Portfolio grid */
 
 .grid{
-  margin-top:70px;
+  margin-top:60px;
   width:100%;
   position:relative;
-  margin-bottom:70px;
+  margin-bottom:60px;
   overflow:hidden;
+    padding: 0px;
 }
 
 .grid li{
-  width:285px;
   margin:0 15px 15px 0;
-  float: left;
   position: relative;
   overflow: hidden;
+    display: block;
 }
 
 .grid img{
-  width:285px;
+  width:130px;
+    height:90px;
   float: left;
   position: relative;
 }
 
 .grid .text {
   position: absolute;
-  width: 285px;
-  height:100%;
   background: #a75557;
   z-index: 2;
   opacity:0;
@@ -567,48 +564,17 @@ ul.tab li a:focus, .active {
 	transition: all 0.6s ease-in;
 }
 
-.grid .text:hover {
-  opacity:1;
-}
-
-.grid .no-text {
-  position: absolute;
-  width: 285px;
-  height:100%;
-  background: #a75557;
-  z-index: 2;
-  opacity:0;
-  -webkit-transition: all 0.6s ease-in;
-	-moz-transition: all 0.6s ease-in;
-	-ms-transition: all 0.6s ease-in;
-	-o-transition: all 0.6s ease-in;
-	transition: all 0.6s ease-in;
-}
-
-.grid .no-text:hover {
-  opacity:1;
-}
 
 .grid p {
   font-size: 18px;
-  text-align:center;
   line-height:26px;
   margin-top:40px;
   font-weight: bold;
   letter-spacing:1px;
-  color: #FFF;
+    margin-left: 20px;
 }
 
-.grid p.description {
-  font-size: 12px;
-  width:300px;
-  margin-top:20px;
-  text-align:center;
-  line-height:20px;
-  font-weight: 400;
-  color: #FFF;
-  position:relative;
-}
+
 
 .clear {
     clear:both;
@@ -696,7 +662,7 @@ input.submit{
 
 .footer .menu-footer{
   margin:0 auto;
-  padding-top:100px;
+  padding-top:40px;
   overflow: hidden;
   position:relative;
     width:840px;
@@ -746,6 +712,31 @@ div.vertical-line{
 
 /* Project */
 
+.project-page{
+    position:relative;
+    width:100%;
+    height:100%;
+    z-index:10;
+    background-color: #a75557;
+    text-align:center;
+    flex:1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.project-page hr{
+    color: white;
+    margin-top:30px;
+    background-color: white;
+    height: 1px;
+    width:106px;
+    border:0;
+
+}
+
+
+
 .project-main {
     margin: auto;
     width: 80%;
@@ -758,6 +749,8 @@ div.vertical-line{
     margin-top: 50px;
     font-weight: normal;
 }
+
+
 
 
 
@@ -830,6 +823,11 @@ div.vertical-line{
     margin-top: 15px;
 }
 
+.project-details a{
+    text-decoration: underline;
+}
+
+
 
 .project-step {
     margin-top:40px;
@@ -845,12 +843,10 @@ div.vertical-line{
     color: #a75557;
 }
 
+
 .project-photos{
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 80px;
 
 }
 
-.project-details a{
-    text-decoration: underline;
-}
