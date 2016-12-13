@@ -415,15 +415,11 @@ h1 span{
 
 /* Hats */
 
-.hats{
-
-}
 
 .hats p{
     font-size:15px;
     font-weight:300;
     letter-spacing:0.7px;
-    margin-top:40px;
 }
 
 
@@ -529,6 +525,20 @@ ul.tab li a:focus, .active {
 
 /* Portfolio grid */
 
+.grid-block{
+    display: flex;
+    align-items: center;
+}
+
+.grid-block a{
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.grid-block img{
+    width: 100%;
+}
+
 .grid{
   margin-top:60px;
   width:100%;
@@ -545,12 +555,6 @@ ul.tab li a:focus, .active {
     display: block;
 }
 
-.grid img{
-  width:130px;
-    height:90px;
-  float: left;
-  position: relative;
-}
 
 .grid .text {
   position: absolute;
@@ -566,9 +570,9 @@ ul.tab li a:focus, .active {
 
 
 .grid p {
+    display: inline-block;
   font-size: 18px;
   line-height:26px;
-  margin-top:40px;
   font-weight: bold;
   letter-spacing:1px;
     margin-left: 20px;
