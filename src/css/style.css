@@ -286,7 +286,7 @@ figure{
     display: inline-block;
 }
 
-.me-summary p{
+.center-p{
   text-align:center;
   font-size:14px;
   width:250px;
@@ -504,7 +504,7 @@ ul.tab li a:focus, .active {
 }
 
 .project-block:hover{
-    transform: scale(1.03);
+    background-color: hsla(359,33%,39%, 0.9);
 }
 
 .project-block img{
