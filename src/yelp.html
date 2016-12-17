@@ -20,13 +20,19 @@
     <!-- Scripts -->
 
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script> -->
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
+    <script>
+        $(function(){
+            $('#footer').load("footer.html");
+        });
+    </script>
 
 </head>
 
@@ -41,14 +47,14 @@
                     <p>How would our restaurant searching experience change
                         if we had a feed of reviews Instagram or Facebook style? </p>
 
-                    <a href="#me-content"><div class="arrow-down"></div></a>
+                    <a href="#project-content"><div class="arrow-down"></div></a>
 
                 </div>
   </section>
 
 
     <section class="project-details" id="project-details">
-        <div class="me-content">
+        <div class="project-content">
             <div class="project-step">
 
                 <h2>Problem</h2>
@@ -234,6 +240,9 @@
   </section>
 
 
+    <!-- footer -->
+
+    <div id="footer" class="footer"></div>
 
 </div>
 

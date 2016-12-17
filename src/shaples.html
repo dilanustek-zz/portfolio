@@ -13,20 +13,22 @@
     <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
     <link rel="stylesheet" href="css/normalize.css">
 
-    <!-- html -->
-    <link rel="import" href="footer.html">
-
-
     <!-- Scripts -->
 
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script> -->
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
+    <script>
+        $(function(){
+            $('#footer').load("footer.html");
+        });
+    </script>
 
 </head>
 
@@ -40,13 +42,13 @@
             <hr/>
             <p>What products could we design with a display that would allow us to feel bumps and corrugations? </p>
 
-            <a href="#me-content"><div class="arrow-down"></div></a>
+            <a href="#project-content"><div class="arrow-down"></div></a>
 
         </div>
     </section>
 
     <section class="project-details" id="project-details">
-        <div class="me-content">
+        <div class="project-content">
 
             <div class="project-step">
 
@@ -364,6 +366,9 @@
 
     </section>
 
+    <!-- footer -->
+
+    <div id="footer" class="footer" ></div>
 
 
 </div>

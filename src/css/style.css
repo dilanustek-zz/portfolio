@@ -101,7 +101,7 @@ figure{
 }
 
 .me-page p{
-    font-size:14px;
+    font-size:20px;
     color:white;
     font-weight:300;
     letter-spacing:0.5px;
@@ -268,7 +268,7 @@ figure{
   width:350px;
   line-height:30px;
   letter-spacing:0;
-  font-size:16px;
+  font-size:18px;
   font-weight:300;
   text-align:center;
 }
@@ -433,9 +433,9 @@ figure{
 
 
 .tabdescription p{
-    font-size:15px;
-    font-weight:300;
-    letter-spacing:0.7px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
 }
 
 
@@ -501,10 +501,11 @@ ul.tab li a:focus, .active {
 .project-block{
     display: flex;
     align-items: center;
+    margin-left: 60px;
 }
 
 .project-block:hover{
-    background-color: hsla(359,33%,39%, 0.9);
+    background-color: hsla(359,33%,39%, 0.1);
 }
 
 .project-block img{
@@ -530,7 +531,7 @@ ul.tab li a:focus, .active {
 
 .projects .p-title{
     display: inline-block;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     letter-spacing: 0.7px;
     text-align: center;
@@ -540,7 +541,7 @@ ul.tab li a:focus, .active {
 
 .projects p {
     display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   line-height:26px;
   letter-spacing:0.7px;
     margin-left: 20px;
@@ -623,31 +624,38 @@ input.submit{
 
 /* Footer */
 
-.footer .menu-footer hr {
+.footer hr {
     display: block;
     height: 1px;
     border: 0;
     border-top: 2px solid #a75557;
-    margin: 1em 0;
     padding: 0;
+    width: 840px;
+    margin: 0 auto;
 }
 
 .footer{
+    margin-top: 80px;
   bottom:0;
   width:100%;
 }
 
 
-.footer .menu-footer{
+.footer .contact{
   margin:0 auto;
-  padding-top:40px;
   overflow: hidden;
   position:relative;
     width:840px;
+    display: flex;
+    justify-content: space-around;
 }
 
+.row {
+    align-self: center;
+}
 
-.footer .menu-footer a{
+.footer .contact a{
+    font-size: 18px;
   line-height:40px;
   padding:2px;
     color:#a75557;
@@ -659,7 +667,7 @@ input.submit{
 	transition: all 0.2s ease-in;
 }
 
-.footer .menu-footer a:hover{
+.footer .contact a:hover{
     color: #656565;
 }
 
@@ -668,14 +676,14 @@ input.submit{
 }
 
 .contact-text p {
+    font-size: 24px;
     margin-bottom: 10px;
     margin-top: 5px;
-    height: 25px;
-
 }
 
 .contact-text{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 
@@ -723,9 +731,9 @@ div.vertical-line{
 
 .project-main p{
     color: hsl(359, 51%, 27%);
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 50px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 
@@ -754,9 +762,9 @@ div.vertical-line{
     z-index:10;
 }
 
-.project-details .me-content{
+.project-details .project-content{
     position:relative;
-    width:950px;
+    width:840px;
     margin: 0 auto;
 }
 
@@ -778,7 +786,7 @@ div.vertical-line{
     margin-top:30px;
     background-color: black;
     height: 1px;
-    width:950px;
+    width:840px;
     border:0;
 
 }
@@ -809,9 +817,10 @@ div.vertical-line{
 }
 
 .project-details p{
-    font-size:16px;
+    font-size:18px;
     line-height:26px;
-    letter-spacing:0;
+    letter-spacing:0.7px;
+    font-weight: 300;
     position:relative;
     margin-top: 15px;
 }

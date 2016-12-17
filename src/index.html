@@ -44,9 +44,6 @@
             $(function(){
                 $('#footer').load("footer.html");
                 $('#designProjects').load("designProjects.html");
-                $('#developerProjects').load("developerProjects.html");
-                $('#researchProjects').load("researchProjects.html");
-
             });
         </script>
 
@@ -75,7 +72,6 @@
                             <p>My main interest is designing products and interactions to solve problems around us.</p>
 
                             <div class="two-choices">
-                                <a href="#me-summary"><div class="more-button">More</div></a>
                                 <a href="#footer"><div class="more-button">Contact</div></a>
                             </div>
                         </div>
@@ -140,48 +136,46 @@
                     </ul>
 
 
+                    <div class="hats">
+                        <div class="tabcontent" id="designer" >
+                            <div class="tabdescription">
+                                <p>I started my human-computer interaction design journey by specializing in HCI at UBC as part of my master's degree in Computer Science.
+                                    I've done projects focusing on interaction design and user-experience design. My thesis
+                                    is designing mid-air interactions using proximity sensors. </p>
+                            </div>
+
+                        </div>
+
+                        <div class="tabcontent" id="developer">
+                            <div class="tabdescription">
+                                <p>I received my Bachelor's degree in Computer Science from Grinnell College during which I interned at Goldman Sachs.
+                                    After I graduated, I worked for Monitise MEA, at the Istanbul office to develop mobile banking
+                                    and e-commerce apps.
+                                    My public repos can be found on <a href="https://github.com/dilanustek/">Github</a>. </p>
+                            </div>
+
+                        </div>
+
+                        <div class="tabcontent" id="researcher">
+                            <div class="tabdescription">
+                                <p> Research is an essential skill both when deciding on the right product and
+                                    designing it to be usable for people. My research publications are found on my resume but the
+                                    most important project is my master's thesis.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="designProjects"></div>
+
+
                 </div>
+
 
 
 
             </section>
 
-
-            <div class="hats">
-                <div class="tabcontent" id="designer" >
-                    <div class="tabdescription">
-                        <p>I started my human-computer interaction design journey by specializing in HCI at UBC as part of my master's degree in Computer Science.
-                            I've done projects focusing on interaction design and user-experience design. My thesis
-                            is designing mid-air interactions using proximity sensors. </p>
-                    </div>
-
-                    <div id="designProjects"></div>
-
-                </div>
-
-                <div class="tabcontent" id="developer">
-                    <div class="tabdescription">
-                        <p>I received my Bachelor's degree in Computer Science from Grinnell College during which I interned at Goldman Sachs.
-                            After I graduated, I worked for Monitise MEA, at the Istanbul office to develop mobile banking
-                            and e-commerce apps.
-                            My public repos can be found on <a href="https://github.com/dilanustek/">Github</a>. </p>
-                    </div>
-
-                    <div id="developerProjects"></div>
-
-                </div>
-
-                <div class="tabcontent" id="researcher">
-                    <div class="tabdescription">
-                        <p> Research is an essential skill both when deciding on the right product and
-                            designing it to be usable for people. My research publications are found on my resume but the
-                            most important project is my master's thesis.</p>
-                    </div>
-
-                    <div id="researchProjects"></div>
-
-                </div>
-            </div>
 
 
 
@@ -189,7 +183,7 @@
 
             <!-- footer -->
 
-            <div id="footer"></div>
+            <div id="footer" class="footer"></div>
 
 
             <!--scripts -->
