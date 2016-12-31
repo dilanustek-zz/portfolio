@@ -307,7 +307,7 @@ figure{
 }
 
 
-.me-summary .column .circle{
+.circle{
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -336,9 +336,13 @@ figure{
     background: url(../img/icons/bulb.png) white no-repeat center center;
 }
 
-.me-summary .column .circle:hover{
+.circle:hover{
   border:2px solid #a75557;
     transform: scale(1.15);
+}
+
+.circle.active{
+    border:2px solid #a75557;
 }
 
 
@@ -681,10 +685,11 @@ div.vertical-line{
 }
 
 .project-main p{
-    color: hsl(359, 51%, 27%);
+    color: white;
+    opacity: 0.5;
     font-size: 22px;
     margin-top: 50px;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 
@@ -708,8 +713,8 @@ div.vertical-line{
     position: absolute;
     top: 0px;
     margin-top: 20px;
-    width: 80px;
-    height: 40px;
+    width: 32px;
+    height: 25px;
     background: url(../img/arrow-back.png) no-repeat center center;
 }
 

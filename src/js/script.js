@@ -100,7 +100,7 @@ $(".preloader").delay(1000).fadeOut("slow")
 });
 
 
-  function openHat(evt, cityName) {
+  function openHat(evt, hatName) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
@@ -110,6 +110,7 @@ $(".preloader").delay(1000).fadeOut("slow")
       for (i = 0; i < tablinks.length; i++) {
           tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
+      document.getElementById(hatName).style.display = "block";
+      $(".circle").removeClass("active");
+      $(evt.currentTarget).find(".circle").addClass("active");
   }
