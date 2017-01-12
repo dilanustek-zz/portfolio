@@ -460,7 +460,7 @@ ul.tab li a:focus, .active {
 }
 
 .project-block:hover{
-    background-color: hsla(359,33%,39%, 0.1);
+    background-color: hsla(359,33%,39%, 0.15);
 }
 
 .project-block img{
@@ -651,6 +651,58 @@ div.vertical-line{
     You can instead use position:absolute or display:inline-block
     if this fits better with your design */
 }
+
+
+/* post */
+.post-details{
+    margin-bottom: 60px;
+}
+
+.post-details p{
+    font-size:18px;
+    line-height:26px;
+    letter-spacing:0.7px;
+    font-weight: 300;
+    position:relative;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.post-details li{
+    font-size:18px;
+    line-height:26px;
+    letter-spacing:0.7px;
+    font-weight: 300;
+    position:relative;
+    margin-top: 15px;
+}
+
+.post-details a{
+    font-size:18px;
+    line-height:26px;
+    letter-spacing:0.7px;
+    font-weight: 300;
+    position:relative;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+
+/* block */
+.block{
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.block:nth-child(even){
+    background: hsla(359,33%,39%, 0.1);
+}
+
+.block{
+    background: white;
+}
+
 
 /* Project */
 
