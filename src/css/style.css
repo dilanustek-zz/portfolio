@@ -255,7 +255,7 @@ figure{
 
 .me-summary hr{
   color: black;
-  margin-top:30px;
+  margin-top:50px;
   background-color: black;
   height: 1px;
   width:106px;
@@ -395,8 +395,8 @@ figure{
 
 
 ul.tab {
+    margin-top: 80px;
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     display: flex;
@@ -456,7 +456,7 @@ ul.tab li a:focus, .active {
 .project-block{
     display: flex;
     align-items: center;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 .project-block:hover{
@@ -478,7 +478,7 @@ ul.tab li a:focus, .active {
 }
 
 .projects li{
-  margin:0 15px 15px 0;
+  margin:0 30px 20px 0;
   position: relative;
   overflow: hidden;
     display: block;
@@ -655,7 +655,8 @@ div.vertical-line{
 
 /* post */
 .post-details{
-    margin-bottom: 60px;
+    margin: 50px 30px 60px 30px ;
+
 }
 
 .post-details p{
@@ -684,7 +685,7 @@ div.vertical-line{
     font-weight: 300;
     position:relative;
     margin-top: 15px;
-    text-decoration: underline;
+    color:#a75557;
 }
 
 
@@ -768,6 +769,11 @@ div.vertical-line{
     width: 32px;
     height: 25px;
     background: url(../img/arrow-back.png) no-repeat center center;
+}
+
+.arrow-back:hover {
+    transform: scale(1.25);
+
 }
 
 
